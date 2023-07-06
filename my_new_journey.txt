@@ -1,3 +1,0 @@
-Testing to see how this works
-
-when importing to js
