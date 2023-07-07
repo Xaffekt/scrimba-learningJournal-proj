@@ -1,4 +1,4 @@
-import {blogOne} from "./blogs/blogOne.js"
+import {blogs} from "./blogs/data.js"
 
-console.log(blogOne)
+console.log(blogs)
 
