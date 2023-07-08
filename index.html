@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>My Learning Journal</title>
+        <title>My Journey</title>
         <link rel="stylesheet" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,21 +11,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
+
         <nav>
-            <a class="nav-title" href="index.html">My learning Jounral</a>
-            <a class="nav-about-me" href="aboutMe.html">about me</a>
+            <a class="nav-title" href="/index.html">My Journey</a>
+            <a class="nav-about-me" href="/aboutMe.html">about me</a>
         </nav>
 
-        <!-- Blogs -->
-        <section class="blogs-container">
-            <div class="blog">
-                <img class="blog-img" src="images/template-img.jpg" alt="">
-                <p class="blog-info">July 6 2023</p>
-                <h2 class="blog-title">Blog One</h2>
-                <p class="blog-paragraph">This is the text for blog 1</p>
-            </div>
-        </section>
+        <main id="main-page-el">
+                <!-- Featured blog -->
+                <header class="feature-blog" id="feature-blog-el"></header>
 
+                <!-- Blogs -->
+                <section class="blogs-container" id="blog-container-el"></section>
+        </main>
 
         <script src="/javaScript/index.js" type="module"></script>
     </body>
