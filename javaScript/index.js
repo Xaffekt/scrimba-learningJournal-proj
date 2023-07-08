@@ -19,7 +19,7 @@ document.addEventListener("click",function(e) {
 function renderFeatureBlog() {
     //renders the most recent blog to the top of the home page with custom styling
     const addHTML = `
-    <div data-blog-id= ${blogs[0].id}>
+    <div class="header-text"data-blog-id= ${blogs[0].id}>
         ${renderBlog(blogs[0])}
     </div>`
 

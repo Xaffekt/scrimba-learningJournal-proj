@@ -36,6 +36,7 @@ nav {
     margin: 0 auto;
 
     width: 50%;
+    max-width: 800px;
     height: 5%;
     padding: 0 1em;
     background-color: #1d1d1d;
@@ -65,7 +66,7 @@ nav a {
 
 .blogs-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 3em;
     padding: 0 4em 1em;
 }
@@ -165,4 +166,24 @@ header .blog-paragraph {
         font-size: 1rem;
     }
     
+}
+
+@media (min-width: 1270px) {
+    .blogs-container {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(300px, 1fr));
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+
+    .header-text {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .blogs-container {
+        padding: 0 10px 1em;
+        margin: 0 auto;
+    }
 }
