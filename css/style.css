@@ -28,23 +28,25 @@ nav {
     justify-content: space-between;
     align-items: center;
  
-    /* position: fixed;
-    top: 0;
-    bottom: 100%;
+    position: fixed;
+    top: 1%;
+    bottom: 99%;
     left: 0;
-    right: 0; */
+    right: 0;
+    margin: 0 auto;
 
-    width: 100%;
-    height: 7%;
-    padding: 1.5em 1em;
-    background-color: #fff;
+    width: 50%;
+    height: 5%;
+    padding: 0 1em;
+    background-color: #1d1d1d;
+    border-radius: 5px;
 }
 
 nav a {
-    color: #090909;
+    color: whitesmoke;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.75rem;
+    font-size: 0.5rem;
     font-weight: 600;
 }
 
@@ -65,13 +67,16 @@ nav a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 3em;
-    padding: 0 4em;
+    padding: 0 4em 1em;
 }
 
 .blog {
     cursor: pointer;
+    box-shadow: 2px 2px 5px #303030;
+    border-radius: 0.5em;
 }
 
+/* ISSUE: shows above the nav bar */
 .blog:hover,
 .blog:active {
     scale: 1.01;
@@ -81,7 +86,7 @@ nav a {
     width: 100%;
     height: 250px;
     object-fit: cover;
-    border-radius: 0.5em;
+    border-radius: 0.5em 0.5em 0 0;
 }
 
 /* General text design */
@@ -99,6 +104,7 @@ header .blog-paragraph {
     width: 100%;
     margin: 0.25rem 0 0.6rem 0;
     overflow-wrap: break-word;
+    padding: 0.5rem;
 }
 
 .blog-info {
@@ -136,8 +142,14 @@ header .blog-paragraph {
 
 
 /* Media Querys */
+@media (min-width: 600px) {
+    nav a {
+        font-size: 0.75rem;
+    }
+}
 
 @media (min-width: 550px) {
+
     .blog-info,
     .fullBlog-info {
         font-size: 0.75rem;
