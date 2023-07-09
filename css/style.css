@@ -27,14 +27,15 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
- 
+    
     position: fixed;
     top: 1%;
     bottom: 99%;
     left: 0;
     right: 0;
-    margin: 0 auto;
+    z-index: 1;
 
+    margin: 0 auto;
     width: 50%;
     max-width: 800px;
     height: 5%;
@@ -75,9 +76,9 @@ nav a {
     cursor: pointer;
     box-shadow: 2px 2px 5px #303030;
     border-radius: 0.5em;
+    
 }
 
-/* ISSUE: shows above the nav bar */
 .blog:hover,
 .blog:active {
     scale: 1.01;
@@ -128,7 +129,7 @@ header .blog-paragraph {
     padding: 1em;
     width: 80%;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 5em auto;
     line-height: 1.5;
 }
 
