@@ -142,6 +142,21 @@ header .blog-paragraph {
     margin: 5em auto;
 }
 
+.blog-link {
+    color: #141414;
+    font-size: 1.2rem;
+}
+
+.blog-link:hover,
+.blog-link:active {
+    color: #285aa7;
+}
+
+.recent-posts {
+    margin: 2em auto;
+    text-align: center;
+}
+
 
 /* Media Querys */
 @media (min-width: 600px) {
