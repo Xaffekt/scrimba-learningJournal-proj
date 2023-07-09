@@ -2,13 +2,13 @@
 solo project for module 6
 
 
-##Future updates
+## Future updates
 - Personalize about me page
 - Fix recent articles to excluse currently viewed articles
 
 
 
-##Long Term Updates
+## Long Term Updates
 - UI cleanup/overhaul
 - Dark mode toggle
 - "view more" to blog post card section
