@@ -52,6 +52,10 @@ nav a {
     font-weight: 600;
 }
 
+.red {
+    color: red;
+}
+
 .feature-blog {
     display: flex;
     flex-direction: column;
